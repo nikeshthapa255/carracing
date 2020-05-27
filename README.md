@@ -15,3 +15,11 @@ pip install pillow==5.4.1
 pip install gym==0.9.4
 pip install -r requirement.txt
 ```
+
+## Run the model 
+```
+conda activate masterai
+cd .\Inference\
+python .\full_world_model.py
+```
+![IMAGE](https://nikeshthapa.tech/car1.png)
