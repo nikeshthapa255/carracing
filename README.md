@@ -1,3 +1,8 @@
+## Introduction
+This is a full world training model, to achieve the goal of training an AI to learn car racing game using reinforcement learning.
+It's is inspired by the [World Models](https://worldmodels.github.io/) by David Ha, Jürgen Schmidhuber.
+
+
 ## Installation
 ```
 conda create -n masterai python=3.6
@@ -8,6 +13,5 @@ conda install -c intel mpi4py
 conda install -c conda-forge pybox2d
 pip install pillow==5.4.1
 pip install gym==0.9.4
-pip install scipy==1.1.0   
-pip install pyglet==1.3.0 --user
+pip install -r requirement.txt
 ```
